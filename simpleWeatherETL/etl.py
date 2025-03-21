@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 from urllib.parse import quote
 
 # 📌 1. EXTRACT data from a public API (OpenWeatherMap)
-API_KEY = "API_KEY"
+API_KEY = "YOUR_API_KEY"  #You need to edit this line with your own API key
 CITY = "Mexico City"
 URL = f"https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
