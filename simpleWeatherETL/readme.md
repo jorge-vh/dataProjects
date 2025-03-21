@@ -1,16 +1,16 @@
 ## Quick ETL example using weather data
 
-This is a quick project to perform ETL process by gathering data of weather from a city using Open Weather Map API and uploading it to a Postgres database.
+This is a quick project to perform ETL process by gathering data of weather from a city using Open Weather Map API and uploading it to a PostgreSQL database.
 
 ### Initiliaze database using docker
 
 
-Initialize docker container for PostgresSQL database
+Initialize docker container for PostgreSQL database
 
 ```
 docker run --name postgres -e POSTGRES_PASSWORD=1234 -p 5432:5432 -d postgres
 ```
-Access the terminal of PostgresSQL running in the container
+Access the terminal of PostgreSQL running in the container
 
 ```
 docker exec -it postgres psql -U postgres
